@@ -1,0 +1,4 @@
+to do blockgame2
+1 add a loop through the blocks and determine if any is still == 0.
+  if nothingis availavble test who won and stop the game.
+2 determine why the south side moves are not subtracting from the counter. only 1 need to be subtracted, at the moment its is subtracting 2 and the wrong button is marked for the computermove

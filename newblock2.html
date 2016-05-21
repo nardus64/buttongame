@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title> Expenses app.
+</title>
+
+<link rel="stylesheet" href="blockstyle2.css">
+<script type="text/javascript" src="blockjavascript2.js"></script>
+</head>
+<body  onload="init();" background-color: #cccccc;>
+<script>
+const blocksize = 50;
+var beginVarSize = 0;
+var beginVarLineH = 0;
+var beginVarlineV = 0;
+var beginspasies = 2;
+var usertotal = 0; 
+var comptotal = 0;
+var blockH1 = 0;
+var blockH2 = 52;
+var blockH3 = 104;
+var blockH4 = 154;
+
+var block1V = 0;
+var block2V = 52;
+var block3V = 104;
+var block4V =  154;
+var exDatef = 0;
+var exNumf = 0;
+
+var mousePos;
+var countblock1 = 0;
+var countblock2 = 0;
+var countblock3 = 0;
+var countblock4 = 0;
+var countblock5 = 0;
+var countblock6 = 0;
+var countblock7 = 0;
+var countblock8 = 0;
+var countblock9 = 0;
+var block1Clicks = 0;
+var block2Clicks = 0;
+var block3Clicks = 0;
+var block4Clicks = 0;
+var block5Clicks = 0;
+var block6Clicks = 0;
+var block7Clicks = 0;
+var block8Clicks = 0;
+var block9Clicks = 0;
+var compmovedone = 'n';
+var a = 0;
+
+const randomClickNo = 5;
+</script>
+<article>
+<section>
+<header>
+<h1>Expenses app.</h1>
+</header>
+<section>
+<h3>Daily Expense.</h3>
+<fieldset>
+
+Date<input type="date" name="exDate" id="lexdate" >
+Amount<input type = "number" name="exNum" id="lexnum"><br>
+Description<input type ='text' name="extxt" id="lextext">
+<button onclick="saveme()">Save me</button><br>
+Listing<br><textarea  name="notestext2" rows=3 cols=30 id="lextxtarea" readonly></textarea><br>
+Total<input type ='text' name="extotal" id="total"><br>
+</fieldset><br>
+<fieldset>
+<h4> Maintenance</h4>
+<button onclick="newExpens()">New Expense</button><br>
+<button onclick="clearlocal()">Delete all</button><br>
+
+<form action="BlockGame.html" method="get">
+<button>Play the game </button>
+</form> 
+
+
+
+</article>
+<nav>
+
+</nav>
+<footer>
+	<u1>
+	<li>The all in one app</li>
+
+	</U1>
+</body>
+
+</head>

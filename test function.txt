@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+function myFunction(name) {
+    return "Hello " + name;
+}
+
+</script>
+document.getElementById("demo").innerHTML = myFunction("John");
+document.getElementById("demo").innerHTML = toCelsius(88);
+</body>
+</html>
